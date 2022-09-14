@@ -99,7 +99,7 @@ Name: Age*/
 
 for (let i = 0; i < data.length; i++) {
   const NameAge = data[i].name+":"+ data[i].birthdate
-console.log(NameAge); // The total number of children of 10 is printed
+console.log(NameAge); // The total number of children is returned
 }
 
 
