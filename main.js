@@ -87,16 +87,22 @@ let data = [
 
 /* Create a Javascript file that, using console.log() that outputs the total number of children */
 
-const myNumber = [2, 5, 1, 2, 2, 5, 5, 4, 5, 0,];
 
 let total = 0
-for (let i = 0; i < myNumber.length; i++) {
-  total += myNumber[i];
-console.log(total[i]); // The total number of children of 10 is printed
+for (let i = 0; i < data.length; i++) {
+  total += data[i].children;
+console.log(total); // The total number of children of 10 is printed
 }
 
 /*Outputs one string per person formatted as such:
 Name: Age*/
+
+for (let i = 0; i < data.length; i++) {
+  const NameAge = data[i].name+":"+ data[i].birthdate
+console.log(NameAge); // The total number of children of 10 is printed
+}
+
+
 
 /*Output all properties of all people using for…in*/
 
